@@ -1,4 +1,4 @@
--- Creating Table Schema
+-- Creating Table Schemas
 
 CREATE TABLE employees(
 	emp_no int PRIMARY KEY,
@@ -23,9 +23,10 @@ CREATE TABLE titles(
 	from_date varchar(10) NOT NULL,
 	to_date varchar(10) NOT NULL,
 	-- creating composite key 
-	PRIMARY KEY (emp_no, title)
+	PRIMARY KEY (emp_no, title, from_date),
 	FOREIGN KEY (emp_no) REFERENCES employees(emp_no)
 );
+
 
 CREATE TABLE departments(
 	dept_no varchar(4) PRIMARY KEY,
@@ -46,7 +47,31 @@ CREATE TABLE dept_emp(
 CREATE TABLE dept_manager(
 	dept_no varchar(4) NOT NULL,
 	emp_no int PRIMARY KEY,
-	
+	from_date varchar(10) NOT NULL,
+	to_date varchar(10) NOT NULL,
+	FOREIGN KEY (emp_no) REFERENCES employees(emp_no),
+	FOREIGN KEY (dept_no) REFERENCES departments(dept_no)
 );
 
--- Importing CSV files
+-- Importing CSV files in the order corresponding tables were created
+	-- imports completed through PostgreSQL GUI
+
+-- Check that tables imported correctly
+
+select *
+from employees;
+
+select *
+from salaries;
+
+select *
+from titles;
+
+select *
+from departments;
+
+select *
+from dept_emp;
+
+select *
+from dept_manager;
