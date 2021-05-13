@@ -1,0 +1,41 @@
+Employees 
+------------
+EmployeeNumber PK varchar(10)
+BirthDate varchar(10)
+FirstName varchar(30)
+LastName varchar(30)
+Gender varchar(1)
+HireDate varchar(10)
+
+Salaries
+----
+EmployeeNumber PK varchar(10) FK >- Employees.EmployeeNumber
+Salary int 
+FromDate varchar(10)
+ToDate varchar(10)
+
+Titles
+-----
+EmployeeNumber PK varchar(10) FK >- Employees.EmployeeNumber
+Title varchar(30)
+FromDate PK varchar(10)
+ToDate varchar(10)
+
+Department
+-
+DeptNumber PK varchar(4)
+DeptName varchar(30)
+
+DepartmentEmployment
+-
+EmployeeNumber PK varchar(10) FK >- Employees.EmployeeNumber
+DeptNumber PK varchar(4) FK >- Department.DeptNumber
+FromDate varchar(10)
+ToDate varchar(10)
+
+DepartmentManager
+----
+DeptNumber varchar(5) FK >- Department.DeptNumber
+EmployeeNumber PK varchar(10) FK >- Employees.EmployeeNumber
+FromDate varchar(10)
+ToDate varchar(10)
