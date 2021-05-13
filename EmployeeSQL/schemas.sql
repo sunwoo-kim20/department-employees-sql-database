@@ -23,10 +23,9 @@ CREATE TABLE titles(
 	from_date varchar(10) NOT NULL,
 	to_date varchar(10) NOT NULL,
 	-- creating composite key 
-	PRIMARY KEY (emp_no, title, from_date),
+	PRIMARY KEY (emp_no, from_date),
 	FOREIGN KEY (emp_no) REFERENCES employees(emp_no)
 );
-
 
 CREATE TABLE departments(
 	dept_no varchar(4) PRIMARY KEY,
