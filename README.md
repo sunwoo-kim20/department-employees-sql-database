@@ -51,19 +51,25 @@ To get a local copy up and running follow these simple steps.
    ```sh
    git clone https://github.com/sunwoo-kim20/sql-hawaii-weather-analysis.git
    ```
-2. Install NPM packages
-   ```sh
-   npm install
-   ```
+2. Run SQL queries from SQL platform of choice
 
 
 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-##
+### Entity Relationship Diagram
+![ERD]((https://github.com/sunwoo-kim20/department-employees-sql-database/blob/main/data-modeling/pewlett-hackard-erd.png?raw=true)
 
-## Flask API
+### Example SQL Queries
+#### Creating Tables
+![Creating Table Queries]((https://github.com/sunwoo-kim20/department-employees-sql-database/blob/main/docs/images/example-schema-query-screenshot.png?raw=true)
+
+#### Data Query and Output
+![Data query]((https://github.com/sunwoo-kim20/department-employees-sql-database/blob/main/docs/images/example-query-screenshot.png?raw=true)
+
+
+![Data query]((https://github.com/sunwoo-kim20/department-employees-sql-database/blob/main/docs/images/example-data-output-screenshot.png?raw=true)
 
 
 
@@ -72,5 +78,5 @@ To get a local copy up and running follow these simple steps.
 
 Sunny Kim - s.kim32415@gmail.com
 
-Project Link: [https://github.com/sunwoo-kim20/sql-hawaii-weather-analysis](https://github.com/sunwoo-kim20/sql-hawaii-weather-analysis)
+Project Link: [https://github.com/sunwoo-kim20/department-employees-sql-database](https://github.com/sunwoo-kim20/department-employees-sql-database)
 
