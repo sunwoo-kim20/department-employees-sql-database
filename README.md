@@ -59,17 +59,17 @@ To get a local copy up and running follow these simple steps.
 ## Usage
 
 ### Entity Relationship Diagram
-![ERD]((https://github.com/sunwoo-kim20/department-employees-sql-database/blob/main/data-modeling/pewlett-hackard-erd.png?raw=true)
+![ERD](https://github.com/sunwoo-kim20/department-employees-sql-database/blob/main/data-modeling/pewlett-hackard-erd.png?raw=true)
 
 ### Example SQL Queries
 #### Creating Tables
-![Creating Table Queries]((https://github.com/sunwoo-kim20/department-employees-sql-database/blob/main/docs/images/example-schema-query-screenshot.png?raw=true)
+![Creating Table Queries](https://github.com/sunwoo-kim20/department-employees-sql-database/blob/main/docs/images/example-schema-query-screenshot.png?raw=true)
 
 #### Data Query and Output
-![Data query]((https://github.com/sunwoo-kim20/department-employees-sql-database/blob/main/docs/images/example-query-screenshot.png?raw=true)
+![Data query](https://github.com/sunwoo-kim20/department-employees-sql-database/blob/main/docs/images/example-query-screenshot.png?raw=true)
 
 
-![Data query]((https://github.com/sunwoo-kim20/department-employees-sql-database/blob/main/docs/images/example-data-output-screenshot.png?raw=true)
+![Data output](https://github.com/sunwoo-kim20/department-employees-sql-database/blob/main/docs/images/example-data-output-screenshot.png?raw=true)
 
 
 
