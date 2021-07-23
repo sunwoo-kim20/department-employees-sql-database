@@ -41,7 +41,7 @@ join departments
 using(dept_no)
 where dept_name = 'Sales';
 
--- All employees in Sales and Development depts (eployeed number, last name, first name, dept name)
+-- All employees in Sales and Development depts (employee number, last name, first name, dept name)
 select emp_no, last_name, first_name, dept_name
 from employees
 join dept_emp
